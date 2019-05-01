@@ -1,0 +1,12 @@
+version: "3"
+services:
+  rediscache:
+    build:
+      context: .
+      dockerfile: redis.dockerfile
+    ports:
+      - "6379:6379"
+    networks:
+      - webnet
+networks:
+  webnet:
