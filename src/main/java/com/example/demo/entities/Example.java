@@ -14,9 +14,13 @@ import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.domain.AbstractAggregateRoot;
+
+import com.example.demo.events.ExampleEventCreation;
+import com.fasterxml.jackson.databind.util.ClassUtil.Ctor;
 
 @Entity
-public class Example {
+public class Example extends AbstractAggregateRoot{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -39,6 +43,10 @@ public class Example {
 
     public void setName(String name) {
         this.name = name;
+    }
+    
+    public Example() {
+	registerEvent(new ExampleEventCreation(2L));
     }
     
 }
