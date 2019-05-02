@@ -29,3 +29,5 @@ proof of concept spring boot with security and redis cache
 - https://softwareengineering.stackexchange.com/questions/365192/project-structure-of-domain-driven-design-in-maven-java-spring-boot
 
 - https://zoltanaltfatter.com/2017/06/09/publishing-domain-events-from-aggregate-roots/
+- https://github.com/eugenp/tutorials/tree/master/persistence-modules/spring-jpa/src/main/java/org/baeldung/persistence/dao como persitir con specification y criteriaquery
+- https://www.baeldung.com/spring-data-criteria-queries como persistir con specification y criteria query
