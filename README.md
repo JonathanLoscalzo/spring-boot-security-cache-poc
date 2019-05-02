@@ -31,3 +31,5 @@ proof of concept spring boot with security and redis cache
 - https://zoltanaltfatter.com/2017/06/09/publishing-domain-events-from-aggregate-roots/
 - https://github.com/eugenp/tutorials/tree/master/persistence-modules/spring-jpa/src/main/java/org/baeldung/persistence/dao como persitir con specification y criteriaquery
 - https://www.baeldung.com/spring-data-criteria-queries como persistir con specification y criteria query
+
+- https://www.toptal.com/java/spring-boot-rest-api-error-handling exception handling
