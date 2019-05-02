@@ -18,3 +18,5 @@ proof of concept spring boot with security and redis cache
 - https://docs.spring.io/spring-boot/docs/2.1.4.RELEASE/reference/htmlsingle/
 
 - https://docs.spring.io/spring-data/jpa/docs/1.4.3.RELEASE/reference/htmlsingle/
+
+- https://www.baeldung.com/java-application-logs-to-elastic-stack
