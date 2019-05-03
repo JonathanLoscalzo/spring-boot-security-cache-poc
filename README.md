@@ -33,3 +33,4 @@ proof of concept spring boot with security and redis cache
 - https://www.baeldung.com/spring-data-criteria-queries como persistir con specification y criteria query
 
 - https://www.toptal.com/java/spring-boot-rest-api-error-handling exception handling
+- http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
